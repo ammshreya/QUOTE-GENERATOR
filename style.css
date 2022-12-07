@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Quicksand:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+ 
+    
+}
+body{
+   
+   
+/* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239C92AC' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E"); */
+/* background-image: url('download1.png'); */
+/* background-repeat: no-repeat; */
+display: flex;
+align-items: center;
+justify-content: center;
+ height: 100vh;  /*IT WILL CENTER TO MIDDLE OF THE PAGE */
+ background-color: #261419;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0,0.5);
+    border-radius: 10px;
+    width: 600px;
+    background-color:rgba(255, 41, 123, 0.8);
+    margin: 10px;
+
+
+}
+
+
+.fa-quote-left{
+    font-size: 35px;
+    color:rgb(1, 1, 1);
+    margin-top: 10px;
+
+}
+.quote{
+    text-align: center;
+    font-style: italic;
+    color: rgb(3, 70, 23);
+    margin-top: 15px;
+
+}
+.author{
+    color: rgba(245, 201, 6, 0.979);
+  font-size: 1.9rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  font-weight: 200;
+}
+
+hr{
+    margin: 25px ;
+    width: 40%;
+    border: 2px solid rgb(40, 7, 7);
+     
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.twitter-share-button{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(69, 69, 73);
+    padding: 10px;
+    color: crimson;
+    border-radius: 10px;
+
+}
+
+.buttons button{
+    cursor: pointer;
+    border: none;
+    color: crimson;
+    font-size:20px;
+    font-weight: 500;
+    background-color: rgb(69, 69, 73);
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.fa-quote-right{
+    font-size: 35px;
+    color:rgb(1, 1, 1);
+    margin-bottom: 10px;
+
+}
